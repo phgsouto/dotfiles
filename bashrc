@@ -46,9 +46,9 @@ function prompt {
     local NONE="\[\033[0m\]"
 
    if [ "$EUID" == 0 ]; then
-        PS1="$B_RED\u$NONE [$B_BLUE\W$NONE]\$ "
+        PS1="$B_RED\u@\h$NONE [$B_BLUE\W$NONE]\$ "
     else
-        PS1="[$B_BLUE\W$NONE]\$ "
+        PS1="$GREEN\u@\h$NONE [$B_BLUE\W$NONE]\$ "
     fi
 }
 
