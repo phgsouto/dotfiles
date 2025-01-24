@@ -1,2 +1,1 @@
-# dotfiles
-My dotfiles.
+These are my dotfiles. Nothing special, just a backup.
